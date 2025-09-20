@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ABOUT THE APP - STUDYFLOW
+Studyflow is a kinda modern, AI-powered note-taking platform designed to make studying and productivity effortless. It combines real-time note editing, intelligent autocomplete, and DALL·E-powered visuals to give students and professionals a smarter way to learn, revise, and remember. But mostly just to take notes during lectures more efectively. This was my final year project and i decided to go with a project i really relate to and would want to be incorporated in real life even though i know there are other much better note taking applications out there like notion-which was my main inspiration in making this project, I strived to create this and here it is.
 
-## Getting Started
+FEATURES
 
-First, run the development server:
+📝 Smart Notes — AI autocomplete to help expand and structure your notes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🎨 DALL·E Integration — Generate unique images to visually represent your notes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔐 Authentication — Secure login & sign-up powered by Clerk.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+💾 Database — Persistent storage using NeonDB (serverless Postgres) with Drizzle ORM for schema management.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+☁️ Cloud Storage — Store user data and images with Firebase.
 
-## Learn More
+🎨 UI & Styling — Built with TailwindCSS and shadcn/ui for a clean, accessible, and modern interface.
 
-To learn more about Next.js, take a look at the following resources:
+🤖 AI Automation — OpenAI API powers autocomplete & image generation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+⚡ Framework — Next.js 15 for app routing, API routes, and server rendering.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+TECH STACK
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Frontend:
+**
+Next.js 15 (App Router)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+React 18
+
+TypeScript
+
+TailwindCSS + shadcn/ui
+
+**Backend & Database:
+**
+NeonDB (serverless Postgres)
+
+Drizzle ORM for migrations & queries
+
+Firebase (Firestore + Storage)
+
+Authentication & Security:
+
+Clerk for user management & sessions
+
+AI & Automation:
+
+OpenAI (ChatGPT for note expansion + DALL·E for images)
+
+
+🚀 Getting Started
+1. Clone the repository
+   git clone https://github.com/soulflay/StudyFlow.git
+   cd StudyFlow
+
+2. Install dependencies
+   npm install
+
+3. Set up environment variables
+
+Create a .env.local file in the root and add your keys:
+upon request email me lol (ayanniyihameed@gmail.com)
+
+4. Run the app locally
+   npm run dev
+Your app will be available at http://localhost:3000
+
+
+5. Screenshots
+
+<img width="2560" height="1440" alt="Screenshot 2025-08-27 223014" src="https://github.com/user-attachments/assets/e79fcefc-7b78-48e3-bd25-ec4d8d2b9dc2" />
+<img width="2560" height="1440" alt="Screenshot 2025-08-27 222959" src="https://github.com/user-attachments/assets/77caabf4-28d6-4c8f-a787-105060ac86c6" />
+
+
+With Studyflow, note-taking isn’t just writing — it’s learning, visualizing, and growing smarter with AI.
+
