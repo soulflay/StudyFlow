@@ -3,21 +3,21 @@ Studyflow is a kinda modern, AI-powered note-taking platform designed to make st
 
 FEATURES
 
-📝 Smart Notes — AI autocomplete to help expand and structure your notes.
+Smart Notes — AI autocomplete to help expand and structure your notes.
 
-🎨 DALL·E Integration — Generate unique images to visually represent your notes.
+DALL·E Integration — Generate unique images to visually represent your notes.
 
-🔐 Authentication — Secure login & sign-up powered by Clerk.
+Authentication — Secure login & sign-up powered by Clerk.
 
-💾 Database — Persistent storage using NeonDB (serverless Postgres) with Drizzle ORM for schema management.
+Database — Persistent storage using NeonDB (serverless Postgres) with Drizzle ORM for schema management.
 
-☁️ Cloud Storage — Store user data and images with Firebase.
+Cloud Storage — Store user data and images with Firebase.
 
-🎨 UI & Styling — Built with TailwindCSS and shadcn/ui for a clean, accessible, and modern interface.
+UI & Styling — Built with TailwindCSS and shadcn/ui for a clean, accessible, and modern interface.
 
-🤖 AI Automation — OpenAI API powers autocomplete & image generation.
+AI Automation — OpenAI API powers autocomplete & image generation.
 
-⚡ Framework — Next.js 15 for app routing, API routes, and server rendering.
+Framework — Next.js 15 for app routing, API routes, and server rendering.
 
 
 TECH STACK
